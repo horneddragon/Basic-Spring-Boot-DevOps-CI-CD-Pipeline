@@ -1,0 +1,7 @@
+services:
+  springboot-app:
+    image: anirudha123/springboot-app:latest
+    container_name: springboot-app
+    ports:
+      - "8080:8080"
+    restart: always
